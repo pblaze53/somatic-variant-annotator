@@ -12,7 +12,13 @@ A Python tool for annotating and classifying somatic cancer variants from VCF fi
 
 ## Example output
 
-![Report](results/variant_report.png)
+[View example HTML report](results/variant_report.html)
+
+The report includes:
+- Summary cards: total variants, pathogenic count, actionable count
+- Color-coded evidence levels (1A = FDA-approved, red → 3A = case reports, orange)
+- Therapy recommendations per variant
+- Allele frequency and sequencing depth
 
 ## Supported variant classifications
 
