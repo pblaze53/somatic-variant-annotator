@@ -1,0 +1,11 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Total Depth">
+##INFO=<ID=AF,Number=A,Type=Float,Description="Allele Frequency">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	TUMOR
+chr7	55259515	.	T	G	.	PASS	DP=150;AF=0.35	GT	0/1
+chr17	7674220	.	C	T	.	PASS	DP=200;AF=0.45	GT	0/1
+chr12	25398284	.	C	A	.	PASS	DP=180;AF=0.28	GT	0/1
+chr9	21971153	.	G	T	.	PASS	DP=120;AF=0.52	GT	0/1
+chr3	178952085	.	A	G	.	PASS	DP=160;AF=0.31	GT	0/1
